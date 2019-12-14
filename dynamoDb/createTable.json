@@ -1,0 +1,36 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "entity_id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "ev_id",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "ps_products",
+        "KeySchema": [
+            {
+                "AttributeName": "entity_id",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "ev_id",
+                "KeyType": "RANGE"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": 1575127270.63,
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:eu-west-1:956433495979:table/ps_products",
+        "TableId": "56e79d77-9391-4316-b250-eb63d347e31c"
+    }
+}

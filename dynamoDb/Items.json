@@ -1,0 +1,51 @@
+{"ps_products" :[
+{
+  "entity_id": "10025",
+  "ev_id": "10025240",
+  "skus" :{"size" : "X,L,M"},
+  "mfDetails" :{"mfNumber" : "1234", "other" :"123"},
+  "description" :{"sd" : "short desc", "ld" :"long desc"},
+  "publish_details" :{"publish" : "true", "start date" : "some date"},
+  "com_attr_ids" : [{"attr_id" : "PRODUCT_BADGE","value_id":"PRODUCT_BADGE_LIMITEDQUANTITY"}],
+  "pc_category_ids" : [{"id":"MEN","seq":1},{"id":"Boots","seq":10}]
+},
+
+{
+  "entity_id": "10025",
+  "ev_id": "13070231",
+  "skus" :{"size" : "X,L,M"},
+  "mfDetails" :{"mfNumber" : "1234", "other" :"123"},
+  "description" :{"sd" : "short desc", "ld" :"long desc"},
+  "publish_details" :{"publish" : "true", "start date" : "some date"},
+  "com_attr_ids" : [{"attr_id" : "PRODUCT_BADGE","value_id":"PRODUCT_BADGE_LIMITEDQUANTITY"}],
+  "pc_category_ids" : [{"id":"MEN","seq":1},{"id":"Boots","seq":10}]
+},
+
+{
+  "entity_id": "PRODUCT_BADGE",
+  "ev_id": "PRODUCT_BADGE_LIMITEDQUANTITY",
+  "attr_details" : {"Name" : {"en_ca":"Product Badge", "fr_ca":"Product Badge"}},
+  "attr_val_details" : {"Name" : {"en_ca":"Limited Quantity", "fr_ca":"Limited Quantity"}}
+},
+
+{
+  "entity_id": "PRODUCT_BADGE",
+  "ev_id": "PRODUCT_BADGE_TOP_RATED",
+  "attr_details" : {"Name" : {"en_ca":"Product Badge", "fr_ca":"Product Badge"}},
+  "attr_val_details" : {"Name" : {"en_ca":"Top rated", "fr_ca":"TopRated"}}
+},
+
+{
+  "entity_id": "MEN",
+  "ev_id": "TOP",
+  "category_desc" : {"Name" : {"en_ca":"men", "fr_ca":"men"}},
+  "Sequency" : 1
+},
+
+{
+  "entity_id": "Boots",
+  "ev_id": "MEN",
+  "category_desc" : {"Name" : {"en_ca":"men", "fr_ca":"men"}},
+  "Sequency" : 1
+}
+]}
